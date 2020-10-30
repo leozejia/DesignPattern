@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Character\ICharacter.cs" />
+    <Compile Include="Assets\Scripts\Character\NavMeshAgent.cs" />
     <Compile Include="Assets\Scripts\Facade\GameFacade.cs" />
     <Compile Include="Assets\Scripts\Facade\IGameSystem.cs" />
     <Compile Include="Assets\Scripts\Facade\IUserInterface.cs" />
