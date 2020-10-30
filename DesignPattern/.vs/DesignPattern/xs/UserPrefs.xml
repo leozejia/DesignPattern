@@ -1,17 +1,25 @@
 ﻿<Properties StartupConfiguration="{7D7E9693-3554-CDB7-F023-AEE40A34B392}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Facade/IGameSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Facade/GameFacade.cs">
     <Files>
       <File FileName="Assets/Scripts/State/SceneStateController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameLoop.cs" Line="23" Column="44" />
-      <File FileName="Assets/Scripts/IGameSystem.cs" Line="8" Column="34" />
-      <File FileName="Assets/Scripts/Facade/GameFacade.cs" Line="19" Column="8" />
-      <File FileName="Assets/Scripts/State/Example/StartState.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scripts/State/Example/MainState.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/GameLoop.cs" />
+      <File FileName="Assets/Scripts/Facade/GameFacade.cs" Line="86" Column="5" />
+      <File FileName="Assets/Scripts/GameSystem/AchievementSystem.cs" />
+      <File FileName="Assets/Scripts/GameSystem/APSystem.cs" />
+      <File FileName="Assets/Scripts/GameSystem/CampSystem.cs" />
+      <File FileName="Assets/Scripts/GameSystem/CharacterSystem.cs" />
+      <File FileName="Assets/Scripts/GameSystem/GameEventSystem.cs" />
+      <File FileName="Assets/Scripts/GameSystem/StageSystem.cs" />
+      <File FileName="Assets/Scripts/UI/CampInfoUI.cs" />
+      <File FileName="Assets/Scripts/State/Example/MainState.cs" />
+      <File FileName="Assets/Scripts/UI/GamePauseUI.cs" />
+      <File FileName="Assets/Scripts/UI/GameStateInfoUI.cs" />
+      <File FileName="Assets/Scripts/UI/SoldierInfoUI.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7a4c2a47-3974-45f6-8f5d-29f5e425d01d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ad3d7e5c-ef14-4253-954e-9456caf7a9d0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

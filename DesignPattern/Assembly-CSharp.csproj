@@ -65,11 +65,22 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Facade\GameFacade.cs" />
     <Compile Include="Assets\Scripts\Facade\IGameSystem.cs" />
+    <Compile Include="Assets\Scripts\Facade\IUserInterface.cs" />
     <Compile Include="Assets\Scripts\GameLoop.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\APSystem.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\AchievementSystem.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\CampSystem.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\CharacterSystem.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\GameEventSystem.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\StageSystem.cs" />
     <Compile Include="Assets\Scripts\State\Example\MainState.cs" />
     <Compile Include="Assets\Scripts\State\Example\StartState.cs" />
     <Compile Include="Assets\Scripts\State\ISceneState.cs" />
     <Compile Include="Assets\Scripts\State\SceneStateController.cs" />
+    <Compile Include="Assets\Scripts\UI\CampInfoUI.cs" />
+    <Compile Include="Assets\Scripts\UI\GamePauseUI.cs" />
+    <Compile Include="Assets\Scripts\UI\GameStateInfoUI.cs" />
+    <Compile Include="Assets\Scripts\UI\SoldierInfoUI.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity2019.4.2f1/Unity2019.4.2.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

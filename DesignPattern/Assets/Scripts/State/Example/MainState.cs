@@ -8,15 +8,17 @@
     public override void StateBegin()
     {
         //Initial
+        GameFacade.Instance.Initial();
     }
 
     public override void StateEnd()
     {
         //Release
+        GameFacade.Instance.Release();
     }
 
     public override void StateUpdate()
     {
-        
+        GameFacade.Instance.Update();
     }
 }
