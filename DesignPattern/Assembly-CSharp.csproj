@@ -63,8 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Character\ICharacter.cs" />
-    <Compile Include="Assets\Scripts\Character\NavMeshAgent.cs" />
+    <Compile Include="Assets\Scripts\Bridge\Character\EnemyAttr.cs" />
+    <Compile Include="Assets\Scripts\Bridge\Character\ICharacter.cs" />
+    <Compile Include="Assets\Scripts\Bridge\Character\ICharacterAttr.cs" />
+    <Compile Include="Assets\Scripts\Bridge\Character\NavMeshAgent.cs" />
+    <Compile Include="Assets\Scripts\Bridge\Character\SoldierAttr.cs" />
+    <Compile Include="Assets\Scripts\Bridge\Weapon\IWeapon.cs" />
     <Compile Include="Assets\Scripts\Facade\GameFacade.cs" />
     <Compile Include="Assets\Scripts\Facade\IGameSystem.cs" />
     <Compile Include="Assets\Scripts\Facade\IUserInterface.cs" />
@@ -75,10 +79,22 @@
     <Compile Include="Assets\Scripts\GameSystem\CharacterSystem.cs" />
     <Compile Include="Assets\Scripts\GameSystem\GameEventSystem.cs" />
     <Compile Include="Assets\Scripts\GameSystem\StageSystem.cs" />
+    <Compile Include="Assets\Scripts\State\AI\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\State\AI\IAIState.cs" />
+    <Compile Include="Assets\Scripts\State\AI\ICharacterAI.cs" />
+    <Compile Include="Assets\Scripts\State\AI\IdleAIState.cs" />
+    <Compile Include="Assets\Scripts\State\AI\SoldierAI.cs" />
     <Compile Include="Assets\Scripts\State\Example\MainState.cs" />
     <Compile Include="Assets\Scripts\State\Example\StartState.cs" />
     <Compile Include="Assets\Scripts\State\ISceneState.cs" />
     <Compile Include="Assets\Scripts\State\SceneStateController.cs" />
+    <Compile Include="Assets\Scripts\Strategy\EnemyStrategy.cs" />
+    <Compile Include="Assets\Scripts\Strategy\IAttrStrategy.cs" />
+    <Compile Include="Assets\Scripts\Strategy\SoldierStrategy.cs" />
+    <Compile Include="Assets\Scripts\Strategy\Strategy.cs" />
+    <Compile Include="Assets\Scripts\TemplateMetod\IEnemy.cs" />
+    <Compile Include="Assets\Scripts\TemplateMetod\ISoldier.cs" />
+    <Compile Include="Assets\Scripts\TemplateMetod\WeaponClass.cs" />
     <Compile Include="Assets\Scripts\UI\CampInfoUI.cs" />
     <Compile Include="Assets\Scripts\UI\GamePauseUI.cs" />
     <Compile Include="Assets\Scripts\UI\GameStateInfoUI.cs" />
