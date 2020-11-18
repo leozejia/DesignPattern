@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{7D7E9693-3554-CDB7-F023-AEE40A34B392}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/State/AI/IdleAIState.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bridge/Character/ICharacter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Bridge/Character/ICharacterAttr.cs" IsPinned="True" />
-      <File FileName="Assets/Scripts/State/SceneStateController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Bridge/Character/ICharacterAttr.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/State/SceneStateController.cs" />
       <File FileName="Assets/Scripts/GameLoop.cs" />
       <File FileName="Assets/Scripts/Facade/GameFacade.cs" />
       <File FileName="Assets/Scripts/GameSystem/AchievementSystem.cs" />
@@ -17,14 +17,13 @@
       <File FileName="Assets/Scripts/Strategy/IAttrStrategy.cs" />
       <File FileName="Assets/Scripts/Strategy/SoldierStrategy.cs" />
       <File FileName="Assets/Scripts/Strategy/EnemyStrategy.cs" />
-      <File FileName="Assets/Scripts/Bridge/Character/ICharacter.cs" Line="141" Column="8" />
+      <File FileName="Assets/Scripts/Bridge/Character/ICharacter.cs" Line="25" Column="7" />
       <File FileName="Assets/Scripts/Bridge/Character/NavMeshAgent.cs" />
       <File FileName="Assets/Scripts/TemplateMetod/WeaponClass.cs" />
       <File FileName="Assets/Scripts/TemplateMetod/ISoldier.cs" />
-      <File FileName="Assets/Scripts/TemplateMetod/IEnemy.cs" Line="16" Column="39" />
-      <File FileName="Assets/Scripts/State/ICharacterAI.cs" Line="7" Column="5" />
-      <File FileName="Assets/Scripts/State/IAIState.cs" Line="5" Column="16" />
+      <File FileName="Assets/Scripts/TemplateMetod/IEnemy.cs" />
       <File FileName="Assets/Scripts/State/AI/IdleAIState.cs" Line="22" Column="27" />
+      <File FileName="Assets/Scripts/State/AI/ICharacterAI.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,15 +32,15 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Bridge" expanded="True">
-                  <Node name="Character" expanded="True" />
+                  <Node name="Character" expanded="True">
+                    <Node name="ICharacter.cs" selected="True" />
+                  </Node>
                   <Node name="Weapon" expanded="True" />
                 </Node>
                 <Node name="Facade" expanded="True" />
                 <Node name="GameSystem" expanded="True" />
                 <Node name="State" expanded="True">
-                  <Node name="AI" expanded="True">
-                    <Node name="IdleAIState.cs" selected="True" />
-                  </Node>
+                  <Node name="AI" expanded="True" />
                 </Node>
                 <Node name="Strategy" expanded="True" />
                 <Node name="TemplateMetod" expanded="True" />
@@ -55,7 +54,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5c9e1884-3b81-4ac0-bc40-19d3a65047bf" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b50e96cb-bc73-46c4-a540-07a3b906d466" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

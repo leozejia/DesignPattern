@@ -16,10 +16,14 @@ public abstract class ICharacter
 
     private IWeapon weapon = null;
     protected ICharacterAttr attribute = null;  //角色属性
+    protected ICharacterAI characterAI;
 
     public ICharacter()
     {
     }
+
+    //public virtual void SetCharacterAI(ICharacter )
+
     //设置角色属性
     public virtual void SetCharacterAttr(ICharacterAttr _characterAttr)
     {
